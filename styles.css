@@ -10,7 +10,7 @@ table {
 
 th {
   background-color: skyblue; /* Sets background color for heading row */
-  color: white;
+  color: black;
 }
 
 tbody tr:nth-child(even) {
