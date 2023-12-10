@@ -1,1 +1,30 @@
 /* your code */
+table {
+  width: 80%;
+  margin: 20px auto;
+  border-collapse: separate;
+  border-spacing: 0;
+  border-radius: 15px; /* Adds border-radius to the table */
+  overflow: hidden; /* Ensures border-radius is applied */
+}
+
+th {
+  background-color: skyblue; /* Sets background color for heading row */
+  color: white;
+}
+
+tbody tr:nth-child(even) {
+  background-color: grey; /* Sets background color for even rows */
+}
+
+tbody tr:nth-child(odd) {
+  background-color: white; /* Sets background color for odd rows */
+}
+
+th,
+td {
+  padding: 10px;
+  text-align: center;
+  border: 1px solid black;
+}
+
